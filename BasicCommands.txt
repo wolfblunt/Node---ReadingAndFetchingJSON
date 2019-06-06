@@ -1,0 +1,17 @@
+Node Basic Commands : 
+Run command: node require.js
+
+Install Third Party Command:  npm install lodash --save
+
+npm init : to initialize basic properties
+
+npm install : will directly install all the packages which is listed in package.json file
+
+Debugging : node inspect filename.js 
+	1.list(10)
+	2.n -> implies next
+	3.c -> continue
+	4.repl
+
+To debug in GoogleChrome : node --inspect-brk filename.js
+	> then open chrome ant type "chrome://inspect"
